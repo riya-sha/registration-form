@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="index.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img class="logo" src="amazon-india-logo.png" alt="Amazon Logo">
+    <div class="box">
+    <form action="result.html" method="GET">
+        <h2 class="create">Create Account</h2>
+        <label class="font" for="name">Your name</label><br>
+        <input class="in" type="text" id="name" name="name" required autofocus><br><br>
+
+        <label class="font" for="phone">Mobile number</label><br>
+        <select id="phone" name="phone >
+            <option value="india">India +91</option>
+            <option value="uae">UAE +97</option>
+            <option value="uk">UK +44</option>
+        </select>
+        <input class="in" type="tel" id="tel" name="tel" required><br><br>
+
+        <label class="font" for="birthday">DOB</label><br>
+        <input class="in" type="date" id="birthday" name="birthday" required><br><br>
+
+
+        <label class="font" for="email">Email(optional)</label><br>
+        <input class="in" type="email" id="email" name="email"><br><br>
+
+        <label class="font" for="pwd">Password</label><br>
+        <input class="in" type="password" id="pwd" name="pwd"><br>
+        <p style="font-size: x-small">Passwords must be at least 6 characters.</p><br>
+
+        <p style="font-size: small">We will send you a text to verify your phone.</p>
+        <p style="font-size: small">Message and Data rates may apply.</p>
+        <button class="button" type="submit" onclick="display();" >Register</button>
+      </form>
+    </div>
+</body>
+</html>
